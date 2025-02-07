@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -102,6 +103,49 @@
     margin-right: 6px;
     width: 20%;
 }
+
+
+
+
 .texto{
     color: #AEF574;
+}
+.back-card{
+  background-color: #4D6D51;
+}
+.back-card2{
+  background-color: #AEF574;
+}
+.cartao{
+  width: 25%;
+  margin-bottom: 20px;
+}
+.text-card{
+  letter-spacing: 1.5px;
+  font-family: 'Koulen', sans-serif;
+  font-size: 28px;
+}
+.card-title{
+  color: #AEF574 !important;
+}
+.second-title{
+  color: #4A664D !important;
+}
+.card-text{
+  font-size: 22px;
+  color: #AEF574 !important;
+}
+.second-subtext{
+  color: #4A664D !important;
+}
+.btn-obj2{
+  background-color: #4A664D !important;
+  color: #AEF574 !important;
+}
+.btn-obj{
+  color: #4A664D !important;
+  background-color: #AEF574 !important;
+}
+.rounded{
+  border-radius: 2rem !important;
 }
