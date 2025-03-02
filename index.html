@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <title>Nutri Magalhães</title>
 </head>
@@ -127,7 +128,7 @@
   <div class="line"></div>
   <section class="eu-section">
     <div class="container">
-      <h2>Qual seu objetivo?</h2>
+      <h2>Quem sou eu</h2>
       <div class="row mt-5">
         <div class="col-md-5 hero-image text-center mt-4">
           <img src="img/image 2.png" alt="eu-img">
@@ -149,13 +150,14 @@
 
   <section class="acompanhamentos">
     <div class="container">
-      <h2>Qual seu objetivo?</h2>
+      <h2>Acompanhamentos</h2>
       <div class="row justify-content-center mt-5">
         <div class="col-md-4 mt-5">
           <div class="back-card card card-objetivo rounded w-100 h-100">
             <div class="card-body d-flex text-center flex-column align-items-center">
               <h5 class="card-text-cash card-title">Planos Online</h5>
               <p class="cash mb-3">R$120</p>
+              <br>
               <p class="card-cash mb-5">
                 Inclui uma consulta inicial detalhada.<br>
                 <br>
@@ -170,7 +172,8 @@
         <div class="col-md-4 mt-5">
           <div class="back-card card card-objetivo rounded w-100 h-100">
             <div class="card-body d-flex text-center flex-column align-items-center">
-              <h5 class="card-text-cash card-title">Planos Presenciais<br><span class="cash-card-span">(a domicílio)</span></h5>
+              <h5 class="card-text-cash card-title">Planos Presenciais<span class="cash-card-span"><br>(a
+                  domicílio)</span></h5>
               <p class="cash mb-3">R$120</p>
               <p class="card-cash mb-5">
                 Inclui uma consulta inicial detalhada.<br>
@@ -186,14 +189,61 @@
       </div>
     </div>
   </section>
- 
- 
- 
- 
- 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+YNE1q1Y8Pp2PmRz1zKZ+AG1TOi4" crossorigin="anonymous">
-  </script>
+
+  <div class="line"></div>
+
+  <section class="resultados">
+    <div class="container">
+      <h2>Alguns resultados</h2>
+      <div class="row justify-content-center mt-5">
+        <div class="slide-resultados">
+          <div class="col-md-6 mt-5">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="img/Evolucao1.png" alt="Foto 02">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="img/Evolucao.png" alt="Foto 01">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/AfterBefore 1 (1).png" alt="Foto 02">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="project-img">
+                    <img src="./img/AfterBefore 1 (1).png" alt="Foto 02">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
+
+
 
 </html>
