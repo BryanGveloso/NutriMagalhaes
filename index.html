@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
   <title>Nutri Magalhães</title>
@@ -23,27 +24,18 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre mim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Planos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contatos</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobremim">Sobre mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resultados">Resultados</a></li>
+          <li class="nav-item"><a class="nav-link" href="#perguntas">Algumas Dúvidas</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="hero-section">
+  <section id="home" class="hero-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 hero-content">
@@ -62,7 +54,7 @@
 
   <div class="line"></div>
 
-  <section class="objetivo-section">
+  <section id="objetivos" class="objetivo-section">
     <div class="container mt-2 mb-5">
       <h2>Qual seu objetivo?</h2>
       <div class="row g-5">
@@ -126,7 +118,7 @@
   </section>
 
   <div class="line"></div>
-  <section class="eu-section">
+  <section id="sobremim" class="eu-section">
     <div class="container">
       <h2>Quem sou eu</h2>
       <div class="row mt-5">
@@ -148,7 +140,7 @@
 
   <div class="line"></div>
 
-  <section class="acompanhamentos">
+  <section id="planos" class="acompanhamentos">
     <div class="container">
       <h2>Acompanhamentos</h2>
       <div class="row justify-content-center mt-5">
@@ -192,7 +184,7 @@
 
   <div class="line"></div>
 
-  <section class="resultados">
+  <section id="resultados" class="resultados">
     <div class="container">
       <h2>Alguns resultados</h2>
       <div class="row justify-content-center mt-5">
@@ -234,8 +226,161 @@
 
     </div>
   </section>
+  <section id="perguntas">
+    <div class="p-4">
+      <div class="accordion" id="accordionConsultas">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              Como funciona a consulta online?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              A consulta online é feita pelo Google Meet, no horário combinado. Durante a conversa, falamos sobre seus
+              objetivos, histórico de saúde, rotina alimentar, preferências e possíveis restrições. Com essas
+              informações, monto um plano alimentar totalmente personalizado para você.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2">
+              Quais informações preciso fornecer antes da consulta?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              O ideal é que você me passe exames recentes (se tiver), histórico médico, lista de medicamentos que está
+              tomando, alergias ou intolerâncias alimentares, e detalhes da sua rotina, como horários das refeições e o
+              que você gosta ou não de comer. Quanto mais informações, melhor será o plano!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse3">
+              Como é feito o acompanhamento após a consulta?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              Depois da consulta, eu envio o seu plano alimentar pelo WhatsApp. Também fico disponível para tirar
+              dúvidas e fazer ajustes necessários dentro de um prazo combinado, para garantir que você siga o plano com
+              confiança e motivação.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4">
+              Quanto tempo dura a consulta online?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              A consulta costuma durar entre 40 e 60 minutos, dependendo do caso e das dúvidas que você tiver.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5">
+              Como funciona a consulta presencial a domicílio?
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              Eu vou até sua casa no horário marcado. Durante a consulta, faço uma avaliação completa, que pode incluir
+              bioimpedância, medições corporais e análise da composição corporal. Também conversamos sobre sua rotina,
+              histórico de saúde e preferências alimentares para criar um plano alimentar 100% personalizado para você.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6">
+              Os planos alimentares são personalizados?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              Sim, sempre! Os planos são feitos pensando nas suas necessidades,
+              rotina, gostos e objetivos. A ideia é que o plano seja prático e fácil de seguir no dia a dia.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse7">
+              Posso esclarecer dúvidas depois da consulta? Se sim, como?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionConsultas">
+            <div class="accordion-body">
+              Claro! Você pode me chamar no WhatsApp dentro do prazo combinado. Esse suporte é importante
+              pra ajustar o plano e responder qualquer dúvida que surgir enquanto você se adapta.
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-white">
+    
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Logo -->
+        <div class="col-md-3 text-center text-md-start">
+          <img src="img/logo.png" alt="">
+        </div>
+
+        <!-- Links -->
+        <div class="col-md-3 text-center text-md-start">
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#Planos">Planos</a></li>
+            <li><a href="#resultados">Resultados</a></li>
+          </ul>
+        </div>
 
 
+        <div class="col-md-4 text-center text-md-start d-flex align-items-center">
+          <div class="footer-social">
+            <i class="fab fa-instagram"></i> <a href="#">nutri.mateus_magalhaes</a>
+            <i class="fas fa-envelope"></i> <a href="mailto:mateusmagalhaes123@live.com">mateusmagalhaes123@live.com</a>
+          </div>
+        </div>
+        
+
+        <div class="col-md-2 text-center text-md-end mt-3 mt-md-0">
+          <a href="https://wa.me/seunumero" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>Fale comigo
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 
 
